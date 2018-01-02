@@ -359,5 +359,7 @@ li{
     text-align: right;
     font-family: 'Mr Dafoe';
     font-size: 20px;
-
+}
+#hits{
+    float: left;
 }
