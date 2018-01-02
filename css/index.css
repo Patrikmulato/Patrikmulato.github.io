@@ -1,5 +1,5 @@
 /* HTML */
-body{
+html ,body{
     font-family: 'Archivo Narrow';
     position: relative;
     overflow-x: hidden;
