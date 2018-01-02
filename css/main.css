@@ -1,0 +1,363 @@
+/* HTML */
+body{
+    font-family: 'Archivo Narrow';
+    position: relative;
+    overflow-x: hidden;
+}
+a{
+    color:rgb(122, 122, 122);
+}
+
+
+/* Navbar brand*/
+@media (min-width: 1200px) {
+    .navbar-brand
+        {
+            position: absolute;
+            left: 200px;
+            margin:0 auto;
+            font-size: 35px;
+        }
+    }
+@media (max-width: 1200px) {
+        .navbar-brand
+            {
+                position: absolute;
+                left: 140px;
+                font-size: 35px;
+            }
+        }
+.navbar-brand{
+        font-family: 'Mr Dafoe';
+        font-size:35px;
+}
+
+
+
+/* Navbar*/
+.navbar{
+    font-size: 20px;
+    border-bottom: 3px solid #272727;
+    
+}
+.navbar-custom {
+    background-color: rgb(241, 240, 240);
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #272727;
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: grey;
+}
+@media (min-width: 1200px) {
+    .nav-link{
+        position: relative;
+
+    }
+}
+
+
+
+/* Cover image*/
+@media (min-width: 1200px) {
+   .img-fluid{
+       height: 470px;
+       width: 100%;
+       border-bottom: #272727 3px solid; 
+   }
+}
+@media (max-width: 1200px) {
+.img-fluid{
+    height: 300px;
+    width: 100%;
+ }
+}
+
+
+
+/* Cover TXT*/
+@media (min-width: 1200px) {
+.caption {
+    font-size: 100px;
+    color: rgb(240, 240, 240);
+    text-shadow: 3px 0px 2px rgb(0, 0, 0);
+ }
+}
+@media (max-width: 1200px) {
+    .caption {
+        position: absolute;
+        top: 45px;
+        width: 100%;
+        font-size: 50px;
+        color: rgb(240, 240, 240);
+        text-shadow: 3px 0px 2px rgb(0, 0, 0);
+     }
+}
+@media (min-width: 1200px) {
+ #welcome{
+     width: 100%;
+     position: absolute;
+     left:150px;
+     top:80px;
+ }
+}
+@media (min-width: 1200px) {
+    #tomy{
+        width: 100%;
+        position: absolute;
+        left:220px;
+        top:190px;
+    }
+   }
+@media (min-width: 1200px) {
+    #webpage{
+        width: 100%;
+        position: absolute;
+        left:270px;
+        top:300px;
+    }
+}
+
+
+/* Max */
+@media (max-width: 1200px) {
+    #welcome{
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        
+    }
+   }
+   @media (max-width: 1200px) {
+       #tomy{
+        width: 100%;
+        position: absolute;
+        left: -15px;
+        top: 100px;
+       }
+      }
+   @media (max-width: 1200px) {
+       #webpage{
+        width: 100%;
+        position: absolute;
+        left: 8px;
+        top: 170px;
+       }
+   }
+div.hidden
+{
+    display: none
+}
+
+
+
+
+/* Cover TXT changed*/
+@media (min-width: 1200px) {
+    #feel{
+        width: 100%;
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+   }
+   @media (min-width: 1200px) {
+       #freeto{
+           width: 100%;
+           position: absolute;
+           right : 20px;
+           top:0px;
+       }
+      }
+   @media (min-width: 1200px) {
+       #looka{
+           width: 100%;
+           position: absolute;
+           left: 32px;
+           top:0px;
+       }
+   }
+
+
+/* Cover TXT changed max*/
+@media (max-width: 1200px) {
+    #feel{
+        width: 100%;
+        position: absolute;
+        right: 80px;
+        top: 0px;
+    }
+   }
+   @media (max-width: 1200px) {
+       #freeto{
+        width: 100%;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+       }
+      }
+   @media (max-width: 1200px) {
+       #looka{
+        width: 100%;
+        position: absolute;
+        left: 8px;
+        top: 0px;
+       }
+   }
+
+
+
+/* Main Titles*/
+.titles{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width: 1200px) {
+ #s2{
+    margin-top: 20px;
+ }
+}
+/* Card*/
+.prof{
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+  .marketing h2 {
+    font-weight: 400;
+}
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+li{
+    font-weight: 500;
+    text-align: left;
+    list-style: none;
+}
+.bio{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top:132px;
+    left: 40px;
+}
+.glyphcard{
+    height: 20px;
+    width: 20px;
+}
+/* intro*/
+#hi{
+    text-align: center;
+    font-weight: 600;
+}
+#aboutme{
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 450;
+}
+.intro{
+    top:50px;
+    font-weight: 500;
+}
+@media (min-width: 1200px) {
+#Touch{
+    position: absolute;
+    left: 250px;
+    font-size: 20px;
+ }
+}
+@media (max-width: 1200px) {
+    #Touch{
+        margin-bottom: 30px;
+        margin-left: 100px;
+        font-size: 20px;
+     }
+    }
+@media (max-width: 1200px) {
+    .myself{
+        top:0px;
+    }
+}
+/*Skills */
+.jumtitle{
+     text-align: center;
+     display: block;     
+     font-size:20px;
+     font-weight: 600;
+}
+
+.jumbotron img{
+    left:10px;
+    margin-top: -100px;
+    display: block;
+    margin: auto;
+    margin-top: -58px;
+    height: 70px;
+}
+@media (max-width: 1200px)
+{
+ .jumbotron img{
+    left:10px;
+    display: block;
+    margin: auto;
+    height: 70px;
+ }
+}
+.skilltxt{
+    margin-top: 20px;
+    font-size: 17px;
+}
+/* Portfolio */
+.git{
+    position: center;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+#github{
+    text-align: center;
+    font-weight: 600;
+    margin: 15px;
+}
+#github2{
+    text-align: center;
+    font-weight: 600;
+    margin: 15px;
+    font-size: 25px;
+}
+#iam{
+    text-align: center;
+    margin-top: 30px;
+}
+/* End */
+.card-footer{
+    margin-top: 50px;
+}
+#Thx{
+    text-align: center;
+}
+#maden{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#madenn{
+    text-align: right;
+    font-family: 'Mr Dafoe';
+    font-size: 20px;
+
+}
