@@ -1,0 +1,304 @@
+
+/*---------------------------------------------------
+    HTMl
+----------------------------------------------------- */
+html ,body{
+    font-family: 'Archivo Narrow';
+    position: relative;
+    height: 100%;
+}
+/*---------------------------------------------------
+    PreLoader
+----------------------------------------------------- */
+.preLoader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #080915;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 30px 1px #103136 inset;
+          box-shadow: 0px 0px 30px 1px #103136 inset;
+}
+
+
+@media only screen and (max-width: 600px) {
+section {
+min-width: 350px;
+  }
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+}
+/*LOADER-7*/
+
+.loader-7 .line {
+    width: 8px;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1ee95d), to(#5714ce));
+    background: -webkit-linear-gradient(top, #1ee95d, #5714ce);
+    background: -o-linear-gradient(top, #1ee95d, #5714ce);
+    background: linear-gradient(to bottom, #1ee95d, #5714ce);
+}
+
+.loader-7 .line1 {
+    left: 45px;
+    -webkit-animation: line-grow 0.5s ease alternate infinite;
+    animation: line-grow 0.5s ease alternate infinite;
+}
+
+.loader-7 .line2 {
+    left: 65px;
+    -webkit-animation: line-grow 0.5s 0.2s ease alternate infinite;
+    animation: line-grow 0.5s 0.2s ease alternate infinite;
+}
+
+.loader-7 .line3 {
+    left: 85px;
+    -webkit-animation: line-grow 0.5s 0.4s ease alternate infinite;
+    animation: line-grow 0.5s 0.4s ease alternate infinite;
+}
+
+.loader-7 .line4 {
+    left: 105px;
+    -webkit-animation: line-grow 0.5s 0.6s ease alternate infinite;
+    animation: line-grow 0.5s 0.6s ease alternate infinite;
+}
+
+/* ----------------     KEYFRAMES    ----------------- */
+@-webkit-keyframes line-grow {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 75%;
+    }
+}
+
+@keyframes line-grow {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 75%;
+    }
+}
+/*---------------------------------------------------
+    Cover and navbar
+----------------------------------------------------- */
+.scrolledNavbar{
+  border-bottom: 3px solid black;
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cover{
+  display: none;
+  background-image: url("cover2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand{
+  font-family: 'Mr Dafoe';
+  font-size: 40px;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link{
+  font-size: 20px;
+}
+.nav-link:hover{
+  color: white;
+  font-size: 22px;
+}
+.fakActive{
+  border-bottom: 1px solid white;
+}
+/*---------------------------------------------------
+    Text animation
+----------------------------------------------------- */
+h1.deepshadow {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 100px;
+  color: white;
+  color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #ffffff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+@media only screen and (max-width: 600px) {
+h1.deepshadow {
+    font-size: 70px;
+  }
+}
+#text1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#text2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#text3{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+/*---------------------------------------------------
+    Back home
+----------------------------------------------------- */
+#return-to-top{
+  color: black;
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  right: 40px;
+}
+#return-to-top:hover{
+  font-size: 16px;
+}
+.fa-arrow-up{
+  display: block;
+  margin: auto;
+}
+/*---------------------------------------------------
+    About Me
+----------------------------------------------------- */
+.title{
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+.shadowCard{
+    position: relative;
+    padding: 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 1px 6px 0px rgba(0,0,0,0.75);
+}
+.bioGraphy{
+  text-align: left;
+  list-style-type: none;
+
+}
+.verticalCenter{
+  margin-top: 70px;
+}
+#iAM{
+  font-weight: 600;
+}
+#getTouch{
+  margin: auto;
+  display:block;
+}
+/* CARD */
+.card-profile {
+  background-color: #e6e5e1;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+          box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+.card-profile .card-img-top {
+  border-radius: 0;
+}
+.card-profile .card-img-profile {
+  max-width: 220px;
+  border-radius: 50%;
+  margin-top: -115px;
+  border: 4px solid #e6e5e1;
+}
+.card-profile .card-title {
+  margin-bottom: 20px;
+}
+.card-profile .card-title small {
+  display: block;
+  margin-top: .2em;
+  font-size: 15px;
+}
+/*---------------------------------------------------
+    Skills
+----------------------------------------------------- */
+.jumbotron{
+  padding-top: 10px;
+}
+.jumIMG{
+  height: 70px;
+}
+.skillTXT{
+  text-align: left;
+}
+/*---------------------------------------------------
+    Portfolio
+----------------------------------------------------- */
+.clickToSee{
+  font-size: 30px;
+  color: black;
+}
+.container > #carouselExampleIndicators{
+  margin-top: 20px;
+}
+/*---------------------------------------------------
+    Footer
+----------------------------------------------------- */
+.card-footer{
+  margin-top: 20px;
+}
+.card-footer > ul li{
+  list-style-type: none;
+  font-size: 17px;
+  margin: 0 0 4px 0;
+}
+#mailTo{
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+}
+#mailTo:hover{
+  color: #747474;
+}
+#Bootstrap{
+  color: #5e3f88;
+  font-weight: 600;
+  text-decoration: none;
+}
+#Bootstrap:hover{
+  color: #483167;
+}
+#signerature{
+  font-family: 'Mr Dafoe';
+  font-size: 20px;
+}
+.madeBy{
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
