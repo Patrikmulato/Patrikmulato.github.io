@@ -16,9 +16,8 @@ html ,body{
   left: 0;
   z-index: 9999999;
   height: 100%;
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background: #080915;
   width: 100%;
@@ -112,6 +111,7 @@ min-width: 350px;
   display: none;
   background-image: url("cover2.jpg");
   height: 100%;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,6 +266,18 @@ h1.deepshadow {
 }
 .container > #carouselExampleIndicators{
   margin-top: 20px;
+}
+.code-snippets a{
+  color: black;
+  font-size: 17px;
+  font-weight: 550;
+  text-decoration: none;
+}
+.code-snippets a:hover , .code-snippets a:focus {
+  color: rgb(97,96,95);
+  font-size: 19px;
+  font-weight: 550;
+  text-decoration: underline;
 }
 /*---------------------------------------------------
     Footer
