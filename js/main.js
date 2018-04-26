@@ -1,4 +1,5 @@
-//Preload Animation //
+
+//Preload Animation
 $(document).ready(function(){
   $('.loader').fadeOut(3000);
   $('.preLoader').delay(2500).fadeOut(2000);
@@ -8,17 +9,31 @@ $(document).ready(function(){
   $('.cover').fadeIn(5000);
 });
 
+
+// Text 1 Fadeout
 setTimeout(function() {
   $('#text1').fadeOut(1000);
   $('#text2').fadeOut(1000);
   $('#text3').fadeOut(1000);
 },8000 );
 
-setTimeout(function() {
-  $('#text1').text("Feel free").fadeIn(1000);
-  $('#text2').text("to").fadeIn(1000);
-  $('#text3').text("Look around").fadeIn(1000);
-},9000 );
+// Text 2 Fade-in
+var lang = window.navigator.language;
+var url = document.URL;
+
+if (url.includes('hu.html')) {
+  setTimeout(function() {
+    $('#text1').text("Nézz").fadeIn(1000);
+    $('#text2').text("körül").fadeIn(1000);
+    $('#text3').text("Nyugodtan").fadeIn(1000);
+  },9000 );
+} else {
+  setTimeout(function() {
+    $('#text1').text("Feel free").fadeIn(1000);
+    $('#text2').text("to").fadeIn(1000);
+    $('#text3').text("Look around").fadeIn(1000);
+  },9000 );
+}
 
 //Scroll //
 $(document).ready(function(){
@@ -64,8 +79,6 @@ $(document).ready(function(){
     }
   });
 });
-
-
 
 // Carousel //
 $('.carousel').carousel({
