@@ -21,7 +21,7 @@ setTimeout(function() {
 var lang = window.navigator.language;
 var url = document.URL;
 
-if (url.includes('hu')) {
+if (url.includes('/hu')) {
   setTimeout(function() {
     $('#text1').text("Nézz").fadeIn(1000);
     $('#text2').text("körül").fadeIn(1000);
