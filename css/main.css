@@ -279,6 +279,94 @@ h1.deepshadow {
   font-weight: 550;
   text-decoration: underline;
 }
+
+
+
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: grey;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#portfolio figure img {
+  -webkit-filter: blur(0);
+	filter:  blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#portfolio figure:hover img {
+	-webkit-filter: blur(3px);
+	filter:  blur(3px);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  margin: 0;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
 /*---------------------------------------------------
     Footer
 ----------------------------------------------------- */
