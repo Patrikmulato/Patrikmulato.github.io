@@ -32,7 +32,7 @@ if (url.includes("/hu")) {
     $("#text3")
       .text("Nyugodtan")
       .fadeIn(1000);
-  }, 5000);
+  }, 6000);
 } else {
   setTimeout(() => {
     $("#text1")

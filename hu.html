@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Patrik Mulato</title>
+    <title>Mulató Patrik webfejlesztő</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
@@ -30,16 +30,14 @@
 
   </head>
   <body>
-
     <div class="preLoader">
-        <div class="loader loader-7">
-          <div class="line line1"></div>
-          <div class="line line2"></div>
-          <div class="line line3"></div>
-          <div class="line line4"></div>
-          <p>Betöltés...</p>
-        </div>
-
+      <div class="loader loader-7">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+        <div class="line line4"></div>
+        <p>Betöltés...</p>
+      </div>
     </div>
     <!-- Cover -->
     <a href="javascript:" id="return-to-top">
@@ -69,6 +67,9 @@
                 <li class="nav-item">
                   <a class="nav-link" id="port" href="#portScroll">Portfolió</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="prices" href="#pricesScroll">Árak</a>
+                </li>
               </ul>
             </div>
       </div>
@@ -97,10 +98,11 @@
               <img class="card-img-profile" src="./Pictures/github.jpg" alt="">
               <h2 class="card-title">
                 Patrik Mulató
-                <small><i class="fas fa-map-marker"></i>&nbspMagyarország</small>
+                <small><i class="fas fa-map-marker"></i>&nbspMagyarország, Miskolc</small>
                 <small><i class="fas fa-calendar"></i>&nbsp1998 Július 8</small>
                 <small><i class="fas fa-code"></i>&nbspFullstack Webfejlesztö</small>
                 <small><i class="fas fa-envelope"></i>&nbspmulatopatrik@gmail.com</small>
+                <small><i class="fas fa-mobile-alt"></i>+36204330077</small>
                 <a class="btn btn-secondary" href="mailto: mulatopatrik@gmail.com" role="button">Üzenj nekem!</a>
               </h2>
 
@@ -111,7 +113,7 @@
         <div class="col-lg-6 verticalCenter">
           <h1 class="text-center">Hello!</h1>
           <h2 class="text-center">Mulató Patrik vagyok.</h2>
-          <p id="iAM">Magyarországon élö szabaduszó fullstack webfejlesztö. Több mint 2 éve kódolok és fejlesztem magam ebben nap, mint nap . Fejlesztöként szeretem tisztán tartani a kódjaimat ,mint ahogy az oldalaimat. Ha kell egy modern, reszponzív oldal.</p>
+          <p id="iAM">Magyarországon (Miskolc) élö szabaduszó fullstack webfejlesztö. Több mint 2 éve kódolok és fejlesztem magam ebben nap, mint nap . Fejlesztöként szeretem tisztán tartani a kódjaimat ,mint ahogy az oldalaimat. Ha kell egy modern, reszponzív oldal.</p>
           <button class="btn btn-outline-primary" id="getTouch" type="submit" name="button" onclick="window.location.href='mailto:mulatopatrik@gmail.com'">Írj rám!</button>
         </div>
       </div>
@@ -127,14 +129,14 @@
       <div class="jumbotron">
         <div class="row">
           <div class="col-lg-4 text-center">
-              <p><img class="jumIMG" src="https://drive.google.com/thumbnail?id=1uvRYb8ttbR_77iPwh7PAP1rhDFi4q4Vs" /></p>
+              <p><img class="jumIMG" src="./Pictures/HTML5_CSS_JavaScript.png"  /></p>
               <h3>Frontend</h3>
-              <p class="skillTXT">A  mai világban mindenki különféle okos eszközöket használ az internet böngészére ezért fontos hogy az oldalak amiket csinálok megfelöen legyenek optimalizálva minden kijelzöre ezáltal reszponzívak legyenek. Ezt a fö nyelvekkel a <b>HTML, CSS, Javascript (jQuery)</b>  és a <b>Bootstrap</b>-el érem el na meg persze egy kis kreativitással. </p>
+              <p class="skillTXT">Frontendes fejlesztésekhez <b>HTML CSS</b> <b>Javascript</b> és egy kis kreativást használok. Ezen kívül van tapasztalatom a <b>Sass</b>-hoz is. Ha webes alkalmazást kell késziteni akkor manapság legjobban elhíresült <b>React</b>-el készitem el.</p>
           </div>
           <div class="col-lg-4 text-center">
-              <p><img class="jumIMG" src="https://drive.google.com/thumbnail?id=1zOlVZXXxe95Ppk5pTC1Fw1GrltGwaLD_"/></p>
+              <p><img class="jumIMG" src="./Pictures/backdata.png"/></p>
               <h3>Backend</h3>
-              <p class="skillTXT"><b>C#</b>-al tanultam meg programozni de webfejlesztéshez elkezdtem tanulni a <b>MEAN</b> stacket ami az egyike a modern stackeknek ez magába foglalja a <b>MongoDB</b>, <b>Express</b>, <b>AngularJS</b> és <b>Node.js</b>-t azóta is ebbe fejlesztem magam és alkotok új dolgokat.</p>
+              <p class="skillTXT">Backendes fejlesztéseknél <b>Node.js</b>-el dolgozok és ehez kiegeszitésként az <b>Express</b> frameworkot használom. Adatbázisok kezeléséhez ha NoSQL-röl van szó akkor <b>MongoDB</b>-t ha pedig relációs adatbázisról van szó akkor pedig <b>PostgreSQL</b>-t használok.</p>
 
           </div>
           <div class="col-lg-4 text-center">
@@ -180,39 +182,250 @@
       </div>
     </div>
 
-    <div class="title">
-      <h3>Oldalak amiket készitettem.</h3>
-    </div>
-
-    <div class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-			<a href="http://kavegepdepo.com/"><img class="d-block w-100" src="./Pictures/kavegepdepo.jpg" /></a>
-          </div>
-          <div class="carousel-item">
-            <a href="http://csigu.hu/"><img class="d-block w-100" src="./Pictures/csigu.jpg" /></a>
-          </div>
-          <div class="carousel-item">
-            <a href="index.html"><img class="d-block w-100" src="./Pictures/mysite.jpg" /></a>
+     <!-- Projects -->
+     <section class="bg-light" id="portfolio">
+      <div class="container">
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading title" style="margin-bottom: 40px; margin-top: 40px">Projektek</h2>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="row">
+          <!-- 1 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="https://www.internationalshowtimes.com/">
+              <figure>
+                <img class="img-fluid" src="./Pictures/ISA.jpg"" alt="">
+              </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>International Showtimes</h4>
+              <p class="text-muted">2018.07 - present</p>
+              <p class="text-muted">Web scraping</p>
+              <p class="text-muted">Backend development</p>
+              <p class="text-muted">Reviewing</p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="http://www.cinepass.de/">
+              <figure>
+                <img class="img-fluid" src="./Pictures/cinepass.jpg" alt="">
+              </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Cinepass</h4>
+              <p class="text-muted">2018.08 - 2018.12</p>
+              <p class="text-muted">Frontend</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="http://kavegepdepo.com/">
+              <figure>
+                <img class="img-fluid" src="./Pictures/kavegepdepo.jpg" alt="">
+              </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Kávégépdepo</h4>
+              <p class="text-muted">2018.03 - 2018.04</p>
+              <p class="text-muted">E-commerce</p>
+              <p class="text-muted">Wordpress</p>
+              <p class="text-muted">SEO optimization</p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="http://csigu.hu/">
+              <figure>
+                <img class="img-fluid" src="./Pictures/csigu.jpg" alt="">
+              </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Csigu Kemence</h4>
+              <p class="text-muted">2018.01 - 2018.02</p>
+              <p class="text-muted">E-commerce</p>
+              <p class="text-muted">Opencart CMS</p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="index.html">
+                <figure>
+                  <img class="img-fluid" src="./Pictures/mysite.jpg" alt="">
+                </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Own Site</h4>
+              <p class="text-muted">2018.02 - present</p>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <figure>
+                <img class="img-fluid" src="./Pictures/coming.jpg" alt="">
+              </figure>
+            </a>
+            <div class="portfolio-caption">
+              <h4>More projects coming soon...</h4>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
+      <!-- Prices -->
+      <div class="title" id="pricesScroll">
+        <h1>Árak</h1>
+        <small>Az árak tájekoztató jellegűek.</small>
+        <hr class="my-3">
+      </div>
+      <div id="generic_price_table">   
+        <section>
+            <div class="container">   
+                <!--BLOCK ROW START-->
+                <div class="row">
+                    <div class="col-md-4">
+                      <!--PRICE CONTENT START-->
+                        <div class="generic_content clearfix shadowCard">                           
+                            <!--HEAD PRICE DETAIL START-->
+                            <div class="generic_head_price clearfix">                           
+                                <!--HEAD CONTENT START-->
+                                <div class="generic_head_content clearfix">                               
+                                  <!--HEAD START-->
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Honlapkészítés</span>
+                                    </div>
+                                    <!--//HEAD END-->                                    
+                                </div>
+                                <!--//HEAD CONTENT END-->                               
+                                <!--PRICE START-->
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                        <span class="currency">100.000</span>
+                                        <span class="month">-tól</span>
+                                        <span class="sign">Ft</span>
+                                    </span>
+                                </div>
+                                <!--//PRICE END-->           
+                            </div>                            
+                            <!--//HEAD PRICE DETAIL END-->                         
+                            <!--FEATURE LIST START-->
+                            <div class="generic_feature_list">
+                              <ul>
+                                    <li>Egyedi, modern honlap design</li>
+                                    <li>Reszponzív (mobilon és tableten is jól működő) honlap</li>
+                                    <li>Keresőoptimalizált honlap</li>
+                                    <li>Honlap később bővíthető, tovább fejleszthető</li>
+                                    <li><span>24/7</span> Support</li>
+                                </ul>
+                            </div>
+                            <!--//FEATURE LIST END-->                           
+                            <!--BUTTON START-->
+                            <div class="generic_price_btn clearfix">
+                              <a class="" href="mailto: mulatopatrik@gmail.com">Ajánlat kérés</a>
+                            </div>
+                            <!--//BUTTON END-->                       
+                        </div>
+                        <!--//PRICE CONTENT END-->                           
+                    </div>
+                    
+                    <div class="col-md-4">     
+                      <!--PRICE CONTENT START-->
+                        <div class="generic_content active clearfix shadowCard">              
+                            <!--HEAD PRICE DETAIL START-->
+                            <div class="generic_head_price clearfix">                          
+                                <!--HEAD CONTENT START-->
+                                <div class="generic_head_content clearfix">                                
+                                  <!--HEAD START-->
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Webáruház</span>
+                                    </div>
+                                    <!--//HEAD END-->                                    
+                                </div>
+                                <!--//HEAD CONTENT END-->                                
+                                <!--PRICE START-->
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                      <span class="currency">150.000</span>
+                                      <span class="month">-tól</span>
+                                      <span class="sign">Ft</span>
+                                    </span>
+                                </div>
+                                <!--//PRICE END-->                                
+                            </div>                            
+                            <!--//HEAD PRICE DETAIL END-->                            
+                            <!--FEATURE LIST START-->
+                            <div class="generic_feature_list">
+                              <ul>
+                                    <li></li>
+                                    <li>Vállalkozására szabva</li>
+                                    <li>SEO optimalizáció</li>
+                                    <li>Nincs korlátozás a termékek, cikkek, képek számában</li>
+                                    <li><span>24/7</span> Support</li>
+                                </ul>
+                            </div>
+                            <!--//FEATURE LIST END-->                            
+                            <!--BUTTON START-->
+                            <div class="generic_price_btn clearfix">
+                              <a class="" href="mailto: mulatopatrik@gmail.com">Ajánlat kérés</a>
+                            </div>
+                            <!--//BUTTON END-->                            
+                        </div>
+                        <!--//PRICE CONTENT END-->                            
+                    </div>
+                    <div class="col-md-4">
+                      <!--PRICE CONTENT START-->
+                        <div class="generic_content clearfix shadowCard">                        
+                            <!--HEAD PRICE DETAIL START-->
+                            <div class="generic_head_price clearfix">                        
+                                <!--HEAD CONTENT START-->
+                                <div class="generic_head_content clearfix">                               
+                                  <!--HEAD START-->
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Egyedi fejlesztés</span>
+                                    </div>
+                                    <!--//HEAD END-->                                 
+                                </div>
+                                <!--//HEAD CONTENT END-->                                
+                                <!--PRICE START-->
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                      <span class="currency">300.000</span>
+                                      <span class="month">-tól</span>
+                                      <span class="sign">Ft</span>
+                                    </span>
+                                </div>
+                               <!--//PRICE END-->                                
+                            </div>                            
+                            <!--//HEAD PRICE DETAIL END-->                            
+                            <!--FEATURE LIST START-->
+                            <div class="generic_feature_list">
+                              <ul>
+                                    <li>Webes alkalmazások</li>
+                                    <li>Nagyobb projektek</li>
+                                    <li><span>24/7</span> Support</li>
+                                </ul>
+                            </div>
+                            <!--//FEATURE LIST END-->                       
+                            <!--BUTTON START-->
+                            <div class="generic_price_btn clearfix">
+                              <a class="" href="mailto: mulatopatrik@gmail.com">Ajánlat kérés</a>
+                            </div>
+                           <!--//BUTTON END-->
+                        </div>
+                        <!--//PRICE CONTENT END-->         
+                    </div>
+                </div>	
+                <!--//BLOCK ROW END-->
+            </div>
+          </section>             
+        </div>
     <div class="title" >
       <h3>Pár saját kodom.</h3>
     </div>
